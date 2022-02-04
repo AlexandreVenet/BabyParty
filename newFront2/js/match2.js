@@ -203,22 +203,22 @@ window.addEventListener('load', (e) => {
     
 });
 
-let addForm = document.getElementById('#post-form');
+let addForm = document.getElementById('post-form');
 addForm.addEventListener('submit', (e) => {
     handleSubmitForm(e, getRoute , addForm, null);
 });
 
-let updateBtn = document.querySelector('.updateBtn');
-updateBtn.addEventListener('click' , (e) => {
-    const match = {id : this.dataset.id};
-    getOne(route, match);
-    console.log( match);
+// let updateBtn = document.querySelector('.updateBtn');
+// updateBtn.addEventListener('click' , (e) => {
+//     const match = {id : this.dataset.id};
+//     getOne(route, match);
+//     console.log( match);
     
 
 
-});
+// });
 
-let updateForm = document.getElementById('#put-form');
+let updateForm = document.getElementById('put-form');
 updateForm.addEventListener('submit', (e) => {
     handleSubmitForm(e, getRoute, updateForm, id);
 });

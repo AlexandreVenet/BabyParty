@@ -1,0 +1,65 @@
+.matchFoot{
+    display: flex;
+    position: top;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: aquamarine;
+    padding: 40px;
+    animation: anim-table 5s ease-out reverse running;
+}
+
+.tableau{
+    border-bottom: cadetblue dashed 2px;
+    padding: 5px;
+}
+
+table{
+    background-color:mintcream;
+}
+
+caption{
+    text-decoration: underline dashed cadetblue 2px;
+}
+
+th{
+    background-color: powderblue;
+}
+
+td{
+    background-color: lightcyan;
+}
+
+body{
+    margin: 0;
+    color: cadetblue;
+    text-align: center;
+}
+
+@keyframes anim-table{
+    from{top: (0);}
+    to{top: (100%);}
+}
+
+/* SCORE1 SCORE2 DATE
+.equipe1{
+    background-color²: powderblue;
+}
+
+.equipe2{
+    background-color: powderblue;
+}
+.date_rencontre{
+    background-color:powderblue;
+} 
+    .score1{
+        background-color: azure;
+    }
+    
+    .score2{
+        background-color: azure;
+    }
+    
+    .date{
+        background-color: azure;
+    }
+    */

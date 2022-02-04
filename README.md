@@ -1,2 +1,3 @@
 # BabyParty
-Essai concluant d'API ASP.NET Core avec une requête GET fonctionnelle à partir d'un front en JS, un back en C# et une database en Postgresql.
+
+API ASP.NET Core avec un CRUD fonctionnel côté serveur. Back en C#, base de données en Postgresql. JS Vanilla pour tester.

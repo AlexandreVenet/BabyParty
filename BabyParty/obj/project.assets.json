@@ -286,11 +286,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Apprenant\\Documents\\BabyParty\\BabyParty\\BabyParty.csproj",
+      "projectUniqueName": "C:\\Users\\Apprenant\\Documents\\BabyParty 2022-02-04\\BabyParty\\BabyParty.csproj",
       "projectName": "BabyParty",
-      "projectPath": "C:\\Users\\Apprenant\\Documents\\BabyParty\\BabyParty\\BabyParty.csproj",
+      "projectPath": "C:\\Users\\Apprenant\\Documents\\BabyParty 2022-02-04\\BabyParty\\BabyParty.csproj",
       "packagesPath": "C:\\Users\\Apprenant\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Apprenant\\Documents\\BabyParty\\BabyParty\\obj\\",
+      "outputPath": "C:\\Users\\Apprenant\\Documents\\BabyParty 2022-02-04\\BabyParty\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Apprenant\\AppData\\Roaming\\NuGet\\NuGet.Config",

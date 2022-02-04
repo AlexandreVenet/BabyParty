@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="crud">
+        <div class="form-div">
+            <label for="ajouter"> AJOUTER </label>
+            <form action="index.js" id="form-ajouter" >
+                <p>
+                    <input type="date">
+                    <input type="text" placeholder="equipe 1">
+                    <input type="number" placeholder="buts" min="0" value="0">
+                </p>
+                <p>
+                    <input type="text" placeholder="equipe 2">
+                    <input type="number" required name="buts" min="0" value="0">
+                    <button type="submit" >ENVOYER</button>
+                </p>
+            </form>
+        </div>
+        <!-- <div class="form-div">
+            <form action="index.js" id="form-acceder">
+                <label for="acceder"> ACCEDER </label>
+                <input type="date">
+                <input type="text" placeholder="equipe 1">
+                <input type="number" placeholder="buts">
+                <input type="text" placeholder="equipe 2">
+                <input type="number" placeholder="buts">
+                <button type="submit" >ENVOYER</button>
+            </form>
+        </div> -->
+        <div class="form-div">
+            <label for="changer"> CHANGER </label>
+            <form action="index.js" id="form-update">
+                <p>
+                    <input type="date">
+                    <input type="text" placeholder="equipe 1">
+                    <input type="number" placeholder="buts" min="0" value="0">
+                </p>
+                <p>
+                    <input type="text" placeholder="equipe 2">
+                    <input type="number" required name="buts" min="0" value="0">
+                    <button type="submit" >ENVOYER</button>
+                </p>
+            </form>
+        </div>       
+                <!-- <div class="data-div">            
+                    <span class="span-update">
+                        <button type="button" >METTRE à JOUR</button>
+                    </span>
+                    <div class="data">
+        
+                    </div>
+                    <span class="span-supprimer">
+                        <button type="button">SUPPRIMER</button>
+                    </span>
+                </div> 
+            -->
+        
+        <div class="form-div">
+            <label for="supprimer"> SUPPRIMER </label>
+            <form action="index.js" id="form-delete">
+                <p>
+                    <input type="date">
+                    <input type="text" placeholder="equipe 1">
+                    <input type="number" placeholder="buts" min="0" value="0">
+                </p>
+                <p>
+                    <input type="text" placeholder="equipe 2">
+                    <input type="number" required name="buts" min="0" value="0">
+                    <button type="submit" >ENVOYER</button>
+                </p>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

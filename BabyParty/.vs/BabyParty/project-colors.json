@@ -5,6 +5,11 @@
       "ProjectGuid": "1f7a586c-8acd-4405-814d-f84ad33d55c5",
       "DisplayName": "BabyParty",
       "ColorIndex": 0
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Fichiers divers",
+      "ColorIndex": -1
     }
   },
   "NextColorIndex": 1

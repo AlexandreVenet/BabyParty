@@ -1,0 +1,58 @@
+
+.form-div{
+    position: relative;
+    -webkit-transition: all 1s;
+    transition: all 1s;
+    background-color: red;
+    width: 20%;
+    margin: auto;
+}
+
+.form-div:focus{
+    /* background-color: azure; */
+    /* color: blue; */
+    width: 80%;
+}
+
+/* .form-div:hover{
+    animation: 2s ease-in animForm;
+    background-color: yellowgreen;
+    color: blue;
+} */
+
+/* 
+.form-div label:focus{
+    animation: 2s ease-in animForm;
+}
+
+@keyframes animForm {
+    from{transform: scaleX(0);}
+    to{transform: scaleX(100%);}
+}
+*/
+
+.crud{
+    /* display: flex;
+    flex-direction: column;
+    justify-content: space-between; */
+    background-color: black;
+    color: blanchedalmond;
+}
+
+/* 
+form{
+    background-color: lightslategrey;
+    color: azure;
+    border-radius: 3px;
+} 
+
+.data-div{
+    margin: auto;
+    width: 80%;
+}
+
+span button{
+    background-color: lightslategrey;
+    width: 50%;
+}
+*/

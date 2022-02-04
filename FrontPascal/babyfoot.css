@@ -1,0 +1,33 @@
+.tableau{
+    border: dotted;
+}
+
+.equipe1{
+    background-color: aquamarine;
+    border: cadetblue dotted;
+}
+
+.equipe2{
+    background-color: aquamarine;
+    border: cadetblue dotted;
+}
+
+.score1{
+    background-color: aquamarine;
+}
+
+.score2{
+    background-color: aquamarine;
+}
+
+.date{
+    background-color: aquamarine;
+}
+
+.date_rencontre{
+    background-color: aquamarine;
+}
+
+table{
+    background-color:whitesmoke;
+ }

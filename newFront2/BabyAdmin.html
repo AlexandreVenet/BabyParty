@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="babyfoot.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <title>formulaire</title>
+    <script src="js/match.js" defer></script>
+
+<body>
+    <div class="postForm" id="postForm">
+
+        <div class="w3-container">
+            <h2>Ajouter un match</h2>
+            <button onclick="document.getElementById('id01').style.display='block'"
+                class="w3-button w3-green w3-large">Ajout</button>
+
+            <div id="id01" class="w3-modal">
+                <div class="w3-modal-content w3-card-4 w3-animate-zoom" style="max-width:600px">
+
+                    <div class="w3-center"><br>
+                        <span onclick="document.getElementById('id01').style.display='none'" class="w3-button w3-xlarge w3-hover-red w3-display-topright" title="Close Modal">&times;</span>
+                    </div>
+
+                    <form class="w3-container" method="post" id="post-form">
+                        <div class="w3-section">
+
+                            <label for="dateRencontre"><b>dateRencontre:</b></label>
+                            <input class="w3-input w3-border w3-margin-bottom" type="date" id="dateRencontre"
+                                name="dateRencontre">
+                            <label for="equipe1"><b>&#201;quipe 1</b></label>
+                            <input class="w3-input w3-border w3-margin-bottom" id="equipe1" type="text"
+                                placeholder="Enter le nom de l'&#233;quipe1" name="equipe1" required>
+                            <label for="equipe2"><b>&#201;quipe 2</b></label>
+                            <input class="w3-input w3-border w3-margin-bottom" id="equipe2" type="text"
+                                placeholder="Enter le nom de l'&#233;quipe2" name="equipe2" required>
+
+
+                            <button class="w3-button w3-block w3-green w3-section w3-padding"
+                                type="submit">Envoyer</button>
+                        </div>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="postForm" id="postForm">
+
+        
+
+        <div class="w3-container">
+
+            <!-- <h2>Ajouter un match</h2>
+            <button onclick="document.getElementById('id02').style.display='block'"
+                class="w3-button w3-green w3-large">Ajout</button> -->
+
+            <div id="id02" class="w3-modal">
+                <div class="w3-modal-content w3-card-4 w3-animate-zoom" style="max-width:600px">
+
+                    <div class="w3-center"><br>
+                        <span onclick="document.getElementById('id02').style.display='none'" class="w3-button w3-xlarge w3-hover-red w3-display-topright" title="Close Modal">&times;</span>
+                    </div>
+
+                    <form class="w3-container"  method="post" id="put-form">
+                        <div class="w3-section">
+
+                            <label for="dateRencontre"><b>dateRencontre:</b></label>
+                            <input class="w3-input w3-border w3-margin-bottom" type="date" id="dateRencontre"
+                                name="dateRencontre">
+                            <label for="equipe1"><b>&#201;quipe 1</b></label>
+                            <input class="w3-input w3-border w3-margin-bottom" id="equipe1" type="text"
+                                placeholder="Enter le nom de l'&#233;quipe1" name="equipe1" required>
+                            <label for="equipe2"><b>&#201;quipe 2</b></label>
+                            <input class="w3-input w3-border w3-margin-bottom" id="equipe2" type="text"
+                                placeholder="Enter le nom de l'&#233;quipe2" name="equipe2" required>
+
+
+                            <button class="w3-button w3-block w3-green w3-section w3-padding"
+                                type="submit">Envoyer</button>
+                        </div>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="matchFoot"id="inputScript" data-adm="true">
+
+    </div>
+
+
+</body>
+
+</html>
